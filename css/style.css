@@ -58,6 +58,18 @@ body {
 
 }
 
+#upDis {
+    font-family: 'ds-digitalnormal';
+    font-size: small;
+    display: inline-flex;
+    width: 200px;
+    justify-content: flex-end;
+    align-items:flex-end;
+    position: absolute;
+    margin: -5px;
+    /* background-color: coral; */
+}
+
 #display {
     /* margin: auto; */
     font-family: 'ds-digitalnormal';

@@ -1,0 +1,97 @@
+body {
+     background: slategray;
+}
+
+#band {
+    margin: auto;
+    display: flex;
+    width: 150px;
+    height: 40%;
+    background: black;
+
+}
+
+#band2 {
+    margin: auto;
+    display: flex;
+    width: 150px;
+    height: 40%;
+    background: black;
+
+}
+
+#face {
+    margin: auto;
+    display: flex;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* position: absolute; */
+    /* right: 0; */
+    /* left: 0; */
+    width: 290px;
+    height: 240px;
+    background: rgb(180, 182, 68);
+    border-radius: 40%;
+    padding: 5px;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+
+#face2 {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* position: absolute; */
+    /* right: 0; */
+    /* left: 0; */
+    width: 265px;
+    height: 215px;
+    background: lightgray;
+    border-radius: 40%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+#display {
+    /* margin: auto; */
+    font-family: 'ds-digitalnormal';
+    font-size: 2em;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    display: flex;
+    width: 200px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(31, 248, 230, 0.952);
+    border-style: inset;
+
+}
+
+#btn {
+    margin-top: 6px;
+    /* margin: auto; */
+    display: flex;
+    width: 200px;
+    color: blue;
+    justify-content: center;
+    align-items: center;
+}
+@font-face {
+    font-family: 'ds-digitalnormal';
+    src: url('/fonts/ds-digi-webfont.woff2') format('woff2'),
+         url('/fonts/ds-digi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+ .shadow {
+    box-shadow: 5px, 15px, 15px, black;
+     
+ }

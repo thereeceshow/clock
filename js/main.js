@@ -48,11 +48,19 @@ if (base === 12) {
     ampm.textContent = 'mil'
     }
 }
-
-light.onclick = function lightUp() {
+// The following code will give us the light up ability by toggling the class, and setting a timeout
+function lightUp() {
     dispLight.classList.toggle('lightUp');
-    // setInterval(lightUp, 2000);
+}
 
+light.onclick = function clickLight() { 
+    lightUp();
+    turnOff();
+
+}
+
+function turnOff() {
+    setTimeout(lightUp, 2000);
 }
 
 setInterval(updateTime, 1000);

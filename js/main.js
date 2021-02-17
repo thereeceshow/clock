@@ -51,6 +51,7 @@ if (base === 12) {
 
 light.onclick = function lightUp() {
     dispLight.classList.toggle('lightUp');
+    // setInterval(lightUp, 2000);
 
 }
 

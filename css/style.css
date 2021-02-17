@@ -1,6 +1,7 @@
 body {
-     background: slategray;
-     /* display: flex; */
+    background: radial-gradient(ellipse at top, #2c69d1, transparent),
+                radial-gradient(ellipse at bottom, #00051a, rgb(71, 71, 71));
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #band {
@@ -10,8 +11,7 @@ body {
     height: 35%;
     min-height: 10%;
     max-height: 3000px;
-    background: black;
-    background: linear-gradient(to left, black, gray, black)
+    background: linear-gradient(to left, black, rgba(55, 55, 61, 0.979), black);
     position: relative; //------------------
 
 }
@@ -23,8 +23,7 @@ body {
     height: 35%;
     min-height: 10%;
     max-height: 3000px;
-    background: black;
-    background: linear-gradient(to left, black, gray, black)
+    background: linear-gradient(to left, black, rgba(55, 55, 61, 0.979), black);
     position: relative; //------------------
     
 
@@ -67,7 +66,7 @@ body {
     height: 85%;
     max-width: 265px;
     max-height: 215px;
-    background: radial-gradient(rgb(168, 179, 201), rgb(60, 65, 70) 100%);
+    background: radial-gradient(rgb(136, 149, 175), rgb(24, 24, 24) 100%);
     border-radius: 40%;
     justify-content: center;
     align-items: center;
@@ -144,6 +143,7 @@ body {
     color: blue;
     justify-content: center;
     align-items: center;
+    
 }
 @font-face {
     font-family: 'ds-digitalnormal';
@@ -160,5 +160,8 @@ body {
 
  button {
      background: radial-gradient(rgb(194, 190, 190), white);
+     background: radial-gradient(rgb(204, 204, 204), rgba(136, 132, 132, 0.692) 100%);
      border-radius: 35%;
  }
+
+ button:focus {outline:0;}

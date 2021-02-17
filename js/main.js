@@ -23,12 +23,15 @@ let milHours = String(milTime.getHours());
 let [hour, minute, second] = new Date().toLocaleTimeString("en-US").split(/:| /);
 let months = ['Jan','Feb','Mar','Apr','May','June','July','Aug','Sep','Nov','Dec'];
 let days = ['Sun', 'Mon', 'Tue','Wed','Thu','Fri','Sat'];
-todayMonth = (months[milTime.getMonth()]); ///Can't get these to stay keep <br> after textContent
-// console.log(todayMonth);
-// month.textContent = todayMonth;
+// Display Month
+todayMonth = (months[milTime.getMonth()]);
+month.textContent = todayMonth;
+// Display Day of the Week
 todayDay = (days[milTime.getDay()]);
-console.log(todayDay);
 day.textContent = todayDay;
+// Display Date
+todayDate = (milTime.getDate());
+numDate.textContent = todayDate;
 if (base === 12) {
     time.textContent = hour + ':' + minute + ':' + second;
     if (milHours < 13) {

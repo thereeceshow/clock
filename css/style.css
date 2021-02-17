@@ -82,16 +82,21 @@ body {
     /* background-color: coral; */
 }
 
+#day {
+    font-size: small;
+}
+
 #upDisDay {
     font-family: 'ds-digitalnormal';
     font-size: x-small;
-    display: inline-flex;
+    /* display: inline-flex; */
     width: 100%;
     max-width: 160px;
     justify-content: flex-start;
     align-items:flex-end;
     position: absolute;
     margin-right: 20px;
+    margin-top: 4px;
     /* background-color: coral; */
 }    
 

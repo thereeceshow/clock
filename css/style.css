@@ -12,6 +12,7 @@ body {
     max-height: 3000px;
     background: black;
     background: linear-gradient(to left, black, gray, black)
+    position: relative; //------------------
 
 }
 
@@ -24,6 +25,8 @@ body {
     max-height: 3000px;
     background: black;
     background: linear-gradient(to left, black, gray, black)
+    position: relative; //------------------
+    
 
 }
 
@@ -44,6 +47,9 @@ body {
     padding: 5px;
     /* justify-content: center; */
     /* align-items: center; */
+    border-style: outset;
+    position: relative; //------------------
+    
 
 }
 
@@ -61,11 +67,13 @@ body {
     height: 85%;
     max-width: 265px;
     max-height: 215px;
-    background: radial-gradient(rgb(146, 177, 235), rgb(23, 82, 150) 100%);
+    background: radial-gradient(rgb(168, 179, 201), rgb(60, 65, 70) 100%);
     border-radius: 40%;
     justify-content: center;
     align-items: center;
     padding: 10px;
+    border-style: inset;
+    position: relative; //------------------
 
 }
 
@@ -86,19 +94,6 @@ body {
     font-size: small;
 }
 
-#upDisDay {
-    font-family: 'ds-digitalnormal';
-    font-size: x-small;
-    /* display: inline-flex; */
-    width: 100%;
-    max-width: 160px;
-    justify-content: flex-start;
-    align-items:flex-end;
-    position: absolute;
-    margin-right: 20px;
-    margin-top: 4px;
-    /* background-color: coral; */
-}    
 
 #display {
     /* margin: auto; */
@@ -112,9 +107,32 @@ body {
     max-width: 200px;
     max-height: 35px;
     justify-content: center;
-    align-items: center;
-    background: rgba(31, 248, 230, 0.952);
+    /* align-items: center; */
+    /* background: rgba(31, 248, 230, 0.952); */
+    background: linear-gradient(rgba(226, 168, 42, 0.952), rgba(146, 115, 12, 0.966));
     border-style: inset;
+    position: relative; //------------------
+    
+}
+
+#upDisDay {
+    font-family: 'ds-digitalnormal';
+    font-size: x-small;
+    /* display: inline-flex; */
+    width: 80%;
+    max-width: 160px;
+    justify-content:flex-end;
+    align-items:flex-end;
+    position: absolute;
+    margin-right: 20px;
+    margin-top: 4px;
+    /* margin-left: 20px; */
+    /* padding-left: 5px; */
+    /* margin-left: 2em; */
+    /* background-color: coral; */
+}    
+.lightUp {
+    background: linear-gradient(rgb(31, 248, 230, .952), rgba(33, 119, 119, 0.658)) !important;
 
 }
 
@@ -137,6 +155,10 @@ body {
 }
  .shadow {
     box-shadow: 15px, 15px, 15px, black;
-    
-     
+       
+ }
+
+ button {
+     background: radial-gradient(rgb(194, 190, 190), white);
+     border-radius: 35%;
  }

@@ -6,6 +6,8 @@ const date = document.getElementById('upDisDay');
 const day = document.getElementById('day');
 const month = document.getElementById('month');
 const numDate = document.getElementById('numDate');
+const light = document.getElementById('light');
+const dispLight = document.getElementById('display');
 let base = 12;
 b24.onclick = function milTime() {
     base =24;
@@ -45,6 +47,10 @@ if (base === 12) {
     time.textContent = milHours + ':' + minute + ':' + second;
     ampm.textContent = 'mil'
     }
+}
+
+light.onclick = function lightUp() {
+    dispLight.classList.toggle('lightUp');
 
 }
 

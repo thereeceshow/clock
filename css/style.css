@@ -7,10 +7,11 @@ body {
 #band {
     margin: auto;
     display: flex;
-    width: 150px;
+    width: 360px;
+    /* min-width: 150px; */
     height: 100%;
     min-height: 20px;
-    max-height: 3000px;
+    /* m-height: 3000px; */
     background: linear-gradient(to left, black, rgba(55, 55, 61, 0.979), black);
     position: relative;
 
@@ -37,11 +38,13 @@ body {
     /* position: absolute; */
     /* right: 0; */
     /* left: 0; */
-    width: 60%;
-    height: 30%;
-    max-width: 290px;
-    max-height: 240px;
-    min-height: 240px;
+    /* width: 60%; */
+    /* height: 30%; */
+    width: 580px;
+    height: 480px;
+    /* min-width: 290px; */
+    /* max-height: 240px; */
+    /* min-height: 240px; */
     background: radial-gradient(farthest-corner at 200px 250px, rgb(88, 88, 48),gold, rgb(238, 229, 182));
     border-radius: 40%;
     padding: 5px;
@@ -64,10 +67,10 @@ body {
     /* position: absolute; */
     /* right: 0; */
     /* left: 0; */
-    width: 85%;
     height: 85%;
-    max-width: 265px;
-    max-height: 215px;
+    width: 85%;
+    min-width: 535px;
+    min-height: 430px;
     background: radial-gradient(rgb(136, 149, 175), rgb(24, 24, 24) 100%);
     border-radius: 40%;
     justify-content: center;
@@ -80,33 +83,33 @@ body {
 
 #upDis {
     font-family: 'ds-digitalnormal';
-    font-size: small;
+    font-size: xx-large;
     display: inline-flex;
     width: 100%;
-    max-width: 160px;
+    min-width: 160px;
     justify-content: flex-end;
     align-items:flex-end;
     position: absolute;
-    margin-right: 10px;
+    padding-right: 30px;
     /* background-color: coral; */
 }
 
 #day {
-    font-size: small;
+    font-size: x-large;
 }
 
 
 #display {
     /* margin: auto; */
     font-family: 'ds-digitalnormal';
-    font-size: 2em;
+    font-size: 3.5em;
     margin-bottom: 6px;
     padding-bottom: 6px;
     display: flex;
     width: 70%;
-    height: 35px;
-    max-width: 200px;
-    max-height: 35px;
+    height: 70px;
+    min-width: 200px;
+    /* min-height: 35px; */
     justify-content: center;
     /* align-items: center; */
     /* background: rgba(31, 248, 230, 0.952); */
@@ -118,10 +121,10 @@ body {
 
 #upDisDay {
     font-family: 'ds-digitalnormal';
-    font-size: x-small;
+    font-size:large;
     /* display: inline-flex; */
     width: 80%;
-    max-width: 160px;
+    min-width: 320px;
     justify-content:flex-end;
     align-items:flex-end;
     position: absolute;
@@ -138,13 +141,17 @@ body {
 }
 
 #btn {
-    margin-top: 6px;
+    margin: 8px;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 1em;
     /* margin: auto; */
-    display: flex;
-    max-width: 200px;
+    position: relative;
+    /* min-width: 500px; */
     color: blue;
-    justify-content: center;
-    align-items: center;
+    /* top: 0; left: 0; bottom: 0; right: 0; */
+    /* justify-content: center; */
+    /* align-items: center; */
     
 }
 @font-face {
@@ -161,9 +168,12 @@ body {
  }
 
  button {
+     font-size: 1.8em;
      background: radial-gradient(rgb(194, 190, 190), white);
      background: radial-gradient(rgb(204, 204, 204), rgba(136, 132, 132, 0.692) 100%);
      border-radius: 35%;
+     padding: 10px; padding-left: 15px; padding-right: 15px;
+     margin-left: 20px; margin-right: 20px;
  }
 
  button:focus {outline:0;}

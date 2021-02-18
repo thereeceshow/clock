@@ -110,12 +110,18 @@ body {
     height: 70px;
     min-width: 200px;
     /* min-height: 35px; */
-    justify-content: center;
+    /* justify-content: center; */
     /* align-items: center; */
     /* background: rgba(31, 248, 230, 0.952); */
     background: linear-gradient(rgba(226, 168, 42, 0.952), rgba(146, 115, 12, 0.966));
     border-style: inset;
     position: relative;
+
+}
+
+#display2 {
+    text-indent: 90px;
+    padding-top: 7px;
     
 }
 
